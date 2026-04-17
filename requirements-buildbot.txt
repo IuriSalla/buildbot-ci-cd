@@ -1,0 +1,4 @@
+buildbot 
+buildbot[bundle]
+buildbot-worker 
+configparser

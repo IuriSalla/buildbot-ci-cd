@@ -1,0 +1,24 @@
+{
+  "all": {
+    "hosts": null,
+    "vars": {
+      "use_host": "all",
+      "ansible_port": "22",
+      "observation": "Exemplo para o repositório. Copie para hosts.json e ajuste."
+    },
+    "children": {
+      "example_group": {
+        "hosts": {
+          "host-a.example.invalid": {
+            "ansible_host": "192.0.2.10",
+            "use_host": "host-a.example.invalid"
+          },
+          "host-b.example.invalid": {
+            "ansible_host": "192.0.2.11",
+            "use_host": "host-b.example.invalid"
+          }
+        }
+      }
+    }
+  }
+}

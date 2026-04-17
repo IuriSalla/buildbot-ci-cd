@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Buildbot master runtime (não versionar estado nem clones de poller)
+master/state.sqlite*
+master/*.pid
+master/twistd.log
+master/http.log
+master/gitpoller-workdir/
+
+# Worker runtime
+worker/*.pid
+worker/twistd.log
+worker/twistd.hostname
+
+# Variáveis locais (senhas, URLs internas). Use .env.example como modelo.
+.env
+
+# Ambiente virtual (recriar com pip install -r requirements.txt se existir)
+venv/
+
+# Inventário real (IPs/hostnames internos) — usar hosts.json.example
+master/inventory/hosts.json
