@@ -27,3 +27,11 @@ buildbot-worker create-worker worker localhost example-worker pass
 pip install -r requirements-ansible.txt
 
 # Iniciando o ambiente
+cd /usr/local/src/buildbot
+
+./start.bash
+
+# Interrompendo o ambiente
+cd /usr/local/src/buildbot
+
+./stop.bash
