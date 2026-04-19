@@ -29,6 +29,7 @@ venv/
 
 # Inventário real (IPs/hostnames internos) — usar hosts.json.example
 master/inventory/hosts.json
+master/devops/ansible/inventory/hosts.json
 
 # Instant
 instant/
