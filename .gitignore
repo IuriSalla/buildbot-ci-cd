@@ -27,6 +27,8 @@ worker/twistd.hostname
 # Ambiente virtual (recriar com pip install -r requirements.txt se existir)
 venv/
 
+buildbot
+
 # Inventário real (IPs/hostnames internos) — usar hosts.json.example
 master/inventory/hosts.json
 master/devops/ansible/inventory/hosts.json
