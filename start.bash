@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ln -snf /usr/local/src/buildbot/buildbot /usr/local/src/buildbot/master/scripts
+
 # Venv
 source venv/bin/activate
 

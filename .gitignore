@@ -15,6 +15,7 @@ master/*.pid
 master/twistd.log
 master/http.log
 master/gitpoller-workdir/
+master/scripts
 
 # Worker runtime
 worker/*.pid
