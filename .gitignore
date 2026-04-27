@@ -21,6 +21,7 @@ master/scripts
 worker/*.pid
 worker/twistd.log
 worker/twistd.hostname
+worker
 
 # Variáveis locais (senhas, URLs internas). Use .env.example como modelo.
 .env
